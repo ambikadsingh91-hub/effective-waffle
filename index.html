@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LOT Pay</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<script type="module" src="firebase.js"></script>
+<script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="login-card">
+
+<div class="logo">
+
+<div class="circle">
+Ł
+</div>
+
+<h1>LOT Pay</h1>
+
+<p>Game Payment System</p>
+
+</div>
+
+<form id="loginForm">
+
+<div class="inputBox">
+
+<i class="fa-solid fa-user"></i>
+
+<input
+type="text"
+id="username"
+placeholder="Username"
+required>
+
+</div>
+
+<div class="inputBox">
+
+<i class="fa-solid fa-lock"></i>
+
+<input
+type="password"
+id="password"
+placeholder="Password"
+required>
+
+</div>
+
+<button id="loginBtn" type="submit">
+Login
+</button>
+
+</form>
+
+<div class="or">
+OR
+</div>
+
+<button id="registerBtn">
+Create Account
+</button>
+
+<div class="footer">
+
+<p>
+Starting Balance
+</p>
+
+<h2>Ł10 LOT</h2>
+
+</div>
+
+</div>
+
+<div id="loading">
+
+<div class="loader"></div>
+
+<p>Loading...</p>
+
+</div>
+
+</body>
+</html>
