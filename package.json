@@ -1,0 +1,11 @@
+{
+  "name": "lot-ecosystem",
+  "private": true,
+  "scripts": {
+    "deploy": "firebase deploy",
+    "emulate": "firebase emulators:start --only hosting,functions,firestore,auth,storage"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.7.0"
+  }
+}
